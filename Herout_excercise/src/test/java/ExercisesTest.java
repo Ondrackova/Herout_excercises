@@ -2,11 +2,11 @@ import org.junit.Test;
 
 import java.awt.*;
 
-public class Excercises {
+public class ExercisesTest {
 
     @Test
 
-    //Minimim and maximum of date type: byte, short, integer, long
+    //Minimum and maximum of date type: byte, short, integer, long
     public void dateTypeScope() {
 
         System.out.println("byte:");
@@ -29,7 +29,7 @@ public class Excercises {
     @Test
     public void dataTypeScopeReal() {
 
-        //Minimim and maximum of date type: float, double
+        //Minimum and maximum of date type: float, double
         System.out.println("float:");
         System.out.println(" Min value: " + Float.MIN_VALUE);
         System.out.println(" Min value: " + Float.MAX_VALUE);
