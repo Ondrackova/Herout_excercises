@@ -23,7 +23,7 @@ public class HexadecimalToDecadeNumber {
             return;
         }
 
-        String hexValue = "" + number + character;
+        String hexValue = number + character;
 
         // Convert the hexadecimal string to a decimal integer
         int decimalValue = Integer.parseInt(hexValue, 16);
