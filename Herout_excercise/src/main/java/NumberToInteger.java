@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class NumberToInteger {
+
+    // The user has entered number into the terminal. The output is whole number (integer).
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
 

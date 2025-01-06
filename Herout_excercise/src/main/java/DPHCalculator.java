@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class DPHCalculator {
+
+    //The user has entered number as a price into the terminal. The output is price with DPH.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class UpperCaseToLowerCase {
+
+    //The user has entered three upper case characters into the terminal. The output is three lowercase letters.
     public static void main (String[] args) {
     Scanner scanner = new Scanner(System.in);
 

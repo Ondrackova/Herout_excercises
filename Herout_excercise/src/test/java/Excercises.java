@@ -1,14 +1,12 @@
 import org.junit.Test;
 
 import java.awt.*;
-import java.util.Scanner;
-
-import static java.lang.Float.NaN;
-import static java.lang.Float.isInfinite;
 
 public class Excercises {
 
     @Test
+
+    //Minimim and maximum of date type: byte, short, integer, long
     public void dateTypeScope() {
 
         System.out.println("byte:");
@@ -31,6 +29,7 @@ public class Excercises {
     @Test
     public void dataTypeScopeReal() {
 
+        //Minimim and maximum of date type: float, double
         System.out.println("float:");
         System.out.println(" Min value: " + Float.MIN_VALUE);
         System.out.println(" Min value: " + Float.MAX_VALUE);
@@ -47,6 +46,8 @@ public class Excercises {
 
     @Test
     public void numberPi() {
+
+        //white a number PI in format 2,14
         double d = Math.PI;
         String numberCentines = String.format("%.2f", d);
         System.out.println("Number PI: " + numberCentines);

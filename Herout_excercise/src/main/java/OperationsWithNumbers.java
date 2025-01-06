@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-import static java.lang.Integer.MAX_VALUE;
-import static java.lang.Integer.MIN_VALUE;
-import static java.util.stream.DoubleStream.concat;
-
 public class OperationsWithNumbers {
+
+    //The user has entered three numbers into the terminal. The output is the sum, product and average of these numbers. The minimum and maximum of them.
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
 

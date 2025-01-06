@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class RealDivision {
 
+    //The user has entered two numbers into the terminal. The output is the division of these numbers.
     public static void main (String[] arg) {
         Scanner scanner = new Scanner(System.in);
 
