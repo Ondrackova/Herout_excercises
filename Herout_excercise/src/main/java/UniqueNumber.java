@@ -1,8 +1,10 @@
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class UniqueNumber {
 
-    public static int[] findUniqueNumbers(int[] numbers) {
+    public static int[]  findUniqueNumbers(int[] numbers) {
 
         int uniqueCount = 0;
         for (int i = 0; i < numbers.length; i++) {
@@ -22,9 +24,19 @@ public class UniqueNumber {
         return output;
     }
 
+    public static Object[] findUniqueThroughHashSet(int[] numbers) {
+        Set<Integer> set = new HashSet<>();
+
+         for (int number : numbers) {
+            set.add(number);
+        }
+        return set.toArray();
+    }
+
     public static void main (String[] args){
         int[] array = {1,2,2,2,4,4,4,5,5,6,7,8,8,9};
-        int[] unique = findUniqueNumbers(array);
+        //int[] unique = findUniqueNumbers(array);
+        Object[] unique = findUniqueThroughHashSet(array);
         System.out.println(Arrays.toString(unique));
 
     }
