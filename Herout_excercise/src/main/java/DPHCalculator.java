@@ -11,9 +11,9 @@ public class DPHCalculator {
         double tax = price * 0.25;
         double totalPrice = price + tax;
 
-        System.out.println("Price without DPH: " + price);
-        System.out.println("Amount DPH (25%): " + tax);
-        System.out.println("Cost including DPH: " + totalPrice);
+        System.out.printf("Price without DPH: %.2f Kč\n", price);
+        System.out.printf("Amount DPH: %.2f Kč\n", tax);
+        System.out.printf("Cost including DPH: %.2f Kč\n", totalPrice);
 
         scanner.close();
     }
