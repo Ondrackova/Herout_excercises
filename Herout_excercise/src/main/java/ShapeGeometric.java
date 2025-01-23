@@ -17,9 +17,9 @@ public class ShapeGeometric {
         System.out.println("Write a symbol:");
         symbol = scanner.next();
 
-        for (int i = 1; i<= rows; i++ ){
+        for (int i = 1; i < rows; i++ ){
             System.out.println();
-            for (int j = 1; j<=columns; j++){
+            for (int j = 1; j < columns; j++){
                 System.out.print(symbol);
             }
         }
