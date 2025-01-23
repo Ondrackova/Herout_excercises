@@ -32,5 +32,6 @@ public class EratosthenesPrimarySource {
                 System.out.print(i + " ");
             }
         }
+        scanner.close();
     }
 }
